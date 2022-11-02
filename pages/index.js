@@ -30,7 +30,7 @@ export default function Home() {
                   Buy Offer
 
                </Link>
-               <Link className={styles.card} href="./acceptOffer">
+               <Link className={styles.card} href="/acceptOffer">
                   Accept Offer
 
                </Link>
@@ -41,7 +41,7 @@ export default function Home() {
                </Link>
 
 
-               <h>
+               <h1>
 
 
                   <Link className={styles.card} href="/revokeListing">
@@ -72,7 +72,7 @@ export default function Home() {
                      Total Sold Number
 
                   </Link>
-               </h>
+               </h1>
 
                <div>
                   <ul>
