@@ -1,0 +1,187 @@
+.container {
+  padding: 0 2rem;
+  
+}
+
+.navbar {
+  width: auto;
+  height: auto;
+  background-color: orchid;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: gray;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.wallet {
+  width: auto;
+    height: auto;
+    padding: 0;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+.button {
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  color: red;
+  border-color: red;
+}
+.title {
+  margin: 0;
+  line-height: 1.50;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.title,
+.description {
+  text-align:end;
+  color: #0070f3;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+}
+
+.grid {
+  display:grid;
+  align-items:center;
+  justify-content:center;
+  flex-wrap: wrap;
+  max-width: fit-content;
+  color: green;
+  font-weight: 1000;
+  border: 1px solid #eaeaea;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  padding: 0.10rem;
+  margin: 1rem;
+}
+
+.grid:hover,
+.grid:focus,
+.grid:active {
+  color: red;
+  border-color: red;
+}
+
+.card {
+  margin: 2rem;
+  padding: 0.15rem;
+  text-align: left;
+  color: green;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 15px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width:fit-content;
+  font-weight: 1000;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: red;
+  border-color: red;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: white;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
