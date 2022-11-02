@@ -4,7 +4,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { chains, providers } from "@web3modal/ethereum";
 import { useProvider, useSigner, useWaitForTransaction, useContractRead, useContractWrite, useAccount, useContract } from "@web3modal/react";
-
+import MagicBrics from "./MagicBrics.json";
 
 
 

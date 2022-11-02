@@ -30,7 +30,7 @@ export default function Home() {
                   Buy Offer
 
                </Link>
-               <Link className={styles.card} href="/acceptOffer">
+               <Link className={styles.card} href="./acceptOffer">
                   Accept Offer
 
                </Link>
