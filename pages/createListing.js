@@ -6,8 +6,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { chains, providers } from "@web3modal/ethereum";
 import { useWaitForTransaction, useContractWrite } from "@web3modal/react";
-// import MagicBrics from "../../blockchain/artifacts/contracts/MagicBrics.sol/MagicBrics.json"
-import MagicBrics from "../../blockchain/artifacts/contracts/MagicBricsV3.sol/MagicBrics.json";
+import MagicBrics from "./MagicBrics.json";
 
 
 

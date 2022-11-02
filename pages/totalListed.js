@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from "../styles/Home.module.css";
 import { chains, providers } from "@web3modal/ethereum";
 import { useProvider, useSigner, useContractRead } from "@web3modal/react";
-import MagicBrics from "../../blockchain/artifacts/contracts/MagicBricsV3.sol/MagicBrics.json";
+import MagicBrics from "./MagicBrics.json";
 
 
 export default function TotalPlotsListed() {
